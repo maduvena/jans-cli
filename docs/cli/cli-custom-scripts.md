@@ -123,7 +123,7 @@ We need to fill some of these properties with valid data to add this new script.
 ```
 We can remove `dn`, `inum`. As because these two items are auto generated with random value. Also we see `aliases`, `moduleproperties` and `configurationProperties` are the array type `keys`. So we need to put data into `[]` otherwise it will raise an error. We can also use `null` value if we need to skip any of them. For `scriptType` we can choose only selected type of script from the below list.
 
-### Name of the type of scripts
+### Type of a script
 
 ```
 PERSON_AUTHENTICATION, INTROSPECTION, RESOURCE_OWNER_PASSWORD_CREDENTIALS, APPLICATION_SESSION, CACHE_REFRESH, UPDATE_USER, USER_REGISTRATION, CLIENT_REGISTRATION, ID_GENERATOR, UMA_RPT_POLICY, UMA_RPT_CLAIMS, UMA_CLAIMS_GATHERING, CONSENT_GATHERING, DYNAMIC_SCOPE, SPONTANEOUS_SCOPE, END_SESSION, POST_AUTHN, SCIM, CIBA_END_USER_NOTIFICATION, PERSISTENCE_EXTENSION, IDP, UPDATE_TOKEN
